@@ -2,24 +2,24 @@
 
 ## Overview
 
-The system provides a foundational implementation of authentication using:
+The system provides a foundational implementation of authentication using the JWTs and have the following functionalities:
 
 - **User  Signup**
 - **User  Signin**
-- **JWT Token Generation and Storage** (in localStorage)
+- **JWT Token Generation and Storage** (in memoory variable)
 - **Access to Protected Routes** (`/me`)
-- **Logout with Session Handling**
+- **Logout with Session Handling** (not for now)
 
 ## How It Works
 
 ### User Signup
 
 - Users register using a username and password.
-- These credentials are securely stored on the server.
+- These credentials are securely stored on the server in the form of the object.
 
 ### User Signin
 
-- Upon successful login, a JWT token is issued and stored in localStorage.
+- Upon successful login, a JWT token is issued and stored in a memory variable.
 
 ### Protected Route
 

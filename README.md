@@ -63,7 +63,7 @@ The system provides a foundational implementation of authentication using the JW
 ### Access the Frontend
 - Open index.html directly in your browser, or serve it using a tool like Live Server in VSCode.
 
-  ## 🔧 Available Routes
+  ## Available Routes
 
 | Method | Route     | Description                  |
 |--------|-----------|------------------------------|
@@ -72,7 +72,7 @@ The system provides a foundational implementation of authentication using the JW
 | GET    | /me       | Get current user info        |
 | POST   | /logout   | Logout user session          |
 
-## 📦 Dependencies
+## Dependencies
 
 - express  
 - jsonwebtoken  
@@ -82,6 +82,6 @@ The system provides a foundational implementation of authentication using the JW
 
 ---
 
-## 📃 License
+## License
 
 MIT License — use it freely and build on top!

@@ -8,7 +8,7 @@ The system provides a foundational implementation of authentication using the JW
 - **User  Signin**
 - **JWT Token Generation and Storage** (in memoory variable)
 - **Access to Protected Routes** (`/me`)
-- **Logout with Session Handling** (not for now)
+- **Logout with Session Handling**
 
 ## How It Works
 

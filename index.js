@@ -59,16 +59,16 @@ app.get("/me",function(req,res){
 })
 
 app.delete("/logout",function(req,res){
-    let username = req.headers.username
-
-    for(let i = 0;i<data[i];i++){
-        if(data[i].usrename == username){
+    let token = req.headers.token
+    let username = jwt.verify(token,JWT_SECRET).username
+    for(let i = 0;i<data.length;i++){
+        if(data[i].username == username){
             data.pop(i)
             break
         }
     }
     res.json({
-        "message": "You are logged out."
+        "message": "You are logged out."    
     })
 })
 app.listen(3000)
